@@ -1,22 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html>
 <head>
-    <title>EndGam - Gaming Magazine Template</title>
+    <title>EndGam - Gaming Magazine</title>
     <meta charset="UTF-8">
-    <meta name="description" content="EndGam Gaming Magazine Template">
+    <meta name="description" content="EndGam Gaming Magazine Template">	
     <meta name="keywords" content="endGam,gGaming, magazine, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon -->
+
     <link href="img/favicon.ico" rel="shortcut icon" />
 
-    <!-- Google Font -->
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
 
-    <!-- Stylesheets -->
+
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/slicknav.min.css" />
@@ -24,24 +23,19 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/animate.css" />
 
-    <!-- Main Stylesheets -->
+
     <link rel="stylesheet" href="css/style.css" />
 
-
-    <!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
 
 </head>
 
 <body>
-    <!-- Page Preloder -->
+
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
-    <!-- Header section -->
+
     <header class="header-section">
         <div class="header-warp">
             <div class="header-social d-flex justify-content-end">
@@ -53,17 +47,17 @@
                 <a href="#"><i class="fa fa-behance"></i></a>
             </div>
             <div class="header-bar-warp d-flex">
-                <!-- site logo -->
-                <a href="home.html" class="site-logo">
+      
+                <a href="index.jsp" class="site-logo">
                     <img src="./img/logo.png" alt="">
                 </a>
                 <nav class="top-nav-area w-100">
                     <div class="user-panel">
                         <a href="">Login</a> / <a href="">Register</a>
                     </div>
-                    <!-- Menu -->
+                  
                     <ul class="main-menu primary-menu">
-                        <li><a href="home.jsp">Home</a></li>
+                        <li><a href="index.jsp">Home</a></li>
                         <li><a href="games.jsp">Games</a>
                             <ul class="sub-menu">
                                 <li><a href="game-single.jsp">Game Singel</a></li>
@@ -77,10 +71,7 @@
             </div>
         </div>
     </header>
-    <!-- Header section end -->
 
-
-    <!-- Hero section -->
     <section class="hero-section overflow-hidden">
         <div class="hero-slider owl-carousel">
             <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-1.jpg">
@@ -99,10 +90,7 @@
             </div>
         </div>
     </section>
-    <!-- Hero section end-->
-
-
-    <!-- Intro section -->
+  
     <section class="intro-section">
         <div class="container">
             <div class="row">
@@ -133,10 +121,7 @@
             </div>
         </div>
     </section>
-    <!-- Intro section end -->
 
-
-    <!-- Blog section -->
     <section class="blog-section spad">
         <div class="container">
             <div class="row">
@@ -256,10 +241,7 @@
             </div>
         </div>
     </section>
-    <!-- Blog section end -->
 
-
-    <!-- Intro section -->
     <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
         <a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="img/icons/solid-right-arrow.png" alt="#"></a>
         <div class="container">
@@ -269,10 +251,7 @@
             </div>
         </div>
     </section>
-    <!-- Intro section end -->
 
-
-    <!-- Featured section -->
     <section class="featured-section">
         <div class="featured-bg set-bg" data-setbg="img/featured-bg.jpg"></div>
         <div class="featured-box">
@@ -286,11 +265,7 @@
             </div>
         </div>
     </section>
-    <!-- Featured section end-->
-
-
-
-    <!-- Newsletter section -->
+    
     <section class="newsletter-section">
         <div class="container">
             <h2>Subscribe to our newsletter</h2>
@@ -300,10 +275,7 @@
             </form>
         </div>
     </section>
-    <!-- Newsletter section end -->
-
-
-    <!-- Footer section -->
+ 
     <footer class="footer-section">
         <div class="container">
             <div class="footer-left-pic">
@@ -329,13 +301,10 @@
                 <a href="#"><i class="fa fa-dribbble"></i></a>
                 <a href="#"><i class="fa fa-behance"></i></a>
             </div>
-            <div class="copyright"><a href="">Colorlib</a> 2021 @ All rights reserved</div>
+          
         </div>
     </footer>
-    <!-- Footer section end -->
 
-
-    <!--====== Javascripts & Jquery ======-->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
@@ -345,5 +314,4 @@
     <script src="js/main.js"></script>
 
 </body>
-
 </html>
